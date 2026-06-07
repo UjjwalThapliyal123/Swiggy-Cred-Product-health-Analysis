@@ -2,7 +2,7 @@
 
 **When did users start getting unhappy — and what were they complaining about?**
 
-A full product analytics pipeline built on 25,000+ real Google Play Store reviews, using statistical and NLP techniques to detect structural shifts in user sentiment for two major Indian consumer apps.
+A full product analytics pipeline built on 50,000+ real Google Play Store reviews, using statistical and NLP techniques to detect structural shifts in user sentiment for two major Indian consumer apps.
 
 **🔍 The Question**
 Swiggy's app rating dropped 1.83 stars around a specific date. CRED's ratings stayed flat. Why? And what can the difference tell us about product culture?
