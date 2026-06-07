@@ -30,10 +30,15 @@ This notebook answers that using real data — no simulations, no synthetic data
 The notebook produces 6 charts saved as .png files:
 
 day1_rating_over_time.png — 7-day rolling avg ratings for both apps
+
 day2_changepoints_swiggy.png — PELT changepoint detection (Swiggy)
+
 day2_changepoints_cred.png — PELT changepoint detection (CRED)
+
 day4_keywords_swiggy.png — TF-IDF complaints before vs after changepoint
+
 day4_keywords_cred.png — TF-IDF complaints for CRED
+
 day6_comparison.png — Side-by-side product health metrics
 
 
