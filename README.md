@@ -12,7 +12,7 @@ This notebook answers that using real data — no simulations, no synthetic data
 
 
 **🛠️ Tech Stack**
-1. google-play-scraper -  Scrape 25,000+ revie
+1. google-play-scraper -  Scrape 50,000+ revie
 2. NLTK (VADER) - Sentiment scoring (−1 to +1 compound score)
 3. ruptures - PELT changepoint detection on rolling avg ratings
 4. scipy - Mann-Whitney U test for statistical significance
