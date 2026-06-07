@@ -22,23 +22,8 @@ This notebook answers that using real data — no simulations, no synthetic data
 
 **Analysis Pipeline**
 
-Scrape reviews (25k each)
-        ↓
-Filter to common date range
-        ↓
-VADER sentiment scoring
-        ↓
-7-day rolling average ratings
-        ↓
-PELT changepoint detection
-        ↓
-Mann-Whitney U + Cohen's d (statistical validation)
-        ↓
-TF-IDF keyword analysis (before vs after changepoint)
-        ↓
-Power analysis & experiment design
-        ↓
-Product health comparison dashboard
+<img width="412" height="408" alt="image" src="https://github.com/user-attachments/assets/2b3860b9-5e31-4988-a3a1-91eb8b5a6e18" />
+
 
 
 📊 Visualisations
