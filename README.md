@@ -1,20 +1,26 @@
 ## Swiggy & CRED — Product Health Monitor
 
-When did users start getting unhappy — and what were they complaining about?
+**When did users start getting unhappy — and what were they complaining about?**
 
 A full product analytics pipeline built on 25,000+ real Google Play Store reviews, using statistical and NLP techniques to detect structural shifts in user sentiment for two major Indian consumer apps.
 
-🔍 The Question
+**🔍 The Question**
 Swiggy's app rating dropped 1.83 stars around a specific date. CRED's ratings stayed flat. Why? And what can the difference tell us about product culture?
 This notebook answers that using real data — no simulations, no synthetic datasets.
 
-📈 Key Findings
-MetricSwiggyCREDAvg Rating~3.33Higher, more stableChangepoints DetectedYes — April 22, 2026None (stable)Rating Drop1.83 stars (statistically significant)—Effect Size (Cohen's d)Large—Review Response Rate~100%35.4%Rating DistributionJ-shaped (polarised)Skewed positive
-Top post-drop complaint keywords for Swiggy (TF-IDF): cancel · worst experience · order
-The surprising insight: Swiggy responds to nearly every review. CRED responds to barely a third. Swiggy's ratings are volatile — but they're listening.
+**📈 Key Findings**
 
-🛠️ Tech Stack
-LibraryPurposegoogle-play-scraperScrape 25,000+ reviews per appNLTK (VADER)Sentiment scoring (−1 to +1 compound score)rupturesPELT changepoint detection on rolling avg ratingsscipyMann-Whitney U test for statistical significancescikit-learnTF-IDF keyword extraction from 1–2 star reviewsstatsmodelsPower analysis & sample size calculationmatplotlib / seabornAll visualisations
+
+**🛠️ Tech Stack**
+1. google-play-scraper -  Scrape 25,000+ revie
+2. NLTK (VADER) - Sentiment scoring (−1 to +1 compound score)
+3. ruptures - PELT changepoint detection on rolling avg ratings
+4. scipy - Mann-Whitney U test for statistical significance
+5. scikit-learn - TF-IDF keyword extraction from 1–2 star reviews
+6. statsmodels - Power analysis & sample size calculation
+7. matplotlib / seabornAll visualisations
+
+**Analysis Pipeline**
 
 Scrape reviews (25k each)
         ↓
