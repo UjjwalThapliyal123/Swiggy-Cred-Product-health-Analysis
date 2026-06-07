@@ -26,7 +26,8 @@ This notebook answers that using real data — no simulations, no synthetic data
 
 
 
-📊 Visualisations
+**📊 Visualisations**
+
 The notebook produces 6 charts saved as .png files:
 
 day1_rating_over_time.png — 7-day rolling avg ratings for both apps
@@ -42,13 +43,17 @@ day4_keywords_cred.png — TF-IDF complaints for CRED
 day6_comparison.png — Side-by-side product health metrics
 
 
-📌 Limitations & Biases
+**📌 Limitations & Biases**
 
-Self-selection bias — users with strong opinions (love/hate) are overrepresented
-Anonymization — all usernames are "A Google user"; deduplication uses reviewId
-Language/region scope — English-language reviews from India only (lang='en', country='in')
-Google Play ToS — scraping is for educational purposes only; commercial use may violate ToS
-CRED penalty setting — penalty=10 is intentional; CRED's stability means a strict threshold avoids false positives. The insight IS the stability.
+1. Self-selection bias — users with strong opinions (love/hate) are overrepresented
+
+2. Anonymization — all usernames are "A Google user"; deduplication uses reviewId
+
+3. Language/region scope — English-language reviews from India only (lang='en', country='in')
+
+4. Google Play ToS — scraping is for educational purposes only; commercial use may violate ToS
+
+5. CRED penalty setting — penalty=10 is intentional; CRED's stability means a strict threshold avoids false positives. The insight IS the stability.
 
 
 
